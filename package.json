@@ -1,0 +1,24 @@
+{
+  "name": "all_about_m",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/Marlena-Janus/all_about_m.git\""
+  },
+  "keywords": [],
+  "author": "\"Marlena Janus\"",
+  "license": "ISC",
+  "devDependencies": {
+    "ansi-colors": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.1"
+  }
+}
