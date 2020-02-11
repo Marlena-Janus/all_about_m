@@ -1,0 +1,76 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.photo1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: aqua;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: aquamarine;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: azure;
+  width: 50rem;
+  height: 50rem;
+}
+
+.photo4 {
+  grid-area: 2/ 1 / 3 / 2;
+  background-color: bisque;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo5 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: burlywood;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo6 {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: cadetblue;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo7 {
+  grid-area: 3 / 1 / 4 / 2;
+  background-color: cornflowerblue;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo8 {
+  grid-area: 3 / 2 / 4 / 3;
+  background-color: cornsilk;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo9 {
+  grid-area: 3 / 3 / 4 / 4;
+  background-color: fuchsia;
+  width: 30rem;
+  height: 30rem;
+}
+
+.photo10 {
+  grid-area: 4 / 1 / 5 / 2;
+  background-color: gold;
+  width: 30rem;
+  height: 30rem;
+}
